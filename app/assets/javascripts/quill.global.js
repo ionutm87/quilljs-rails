@@ -93,7 +93,7 @@
         }
     };
 
-    $( document ).on('ready page:change turbolinks:load', function() {
+    $( document ).on('ready page:change turbolinks:load show.bs.modal', function() {
         if ($('.ql-editor').length <= 0){
             Quilljs.loadDefaults();
         }
